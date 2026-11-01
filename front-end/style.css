@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+
+    width: 900px;
+    height: 750px;
+
+    margin: 50px auto;
+
+    padding-top: 30px;       
+    padding-bottom: 30px;      
+    padding-left: 20px;        
+    padding-right: 20px; 
+
+    border-radius: 5px;
+    border: 2px solid rgb(111, 110, 110);
+
+    gap: 25px;
+
+    background-color: black;
+}
+
+.div_arquivo_conc{
+    margin: 40px auto;
+    padding: 20px;
+
+    text-align: center;
+
+    width: 600px;
+    height: 150px;
+
+    border-radius: 10px;
+    border: 2px solid rgb(111, 110, 110);
+
+    background-color: black;
+}
+
+.entrada_arquivo{
+    margin: 20px auto;
+
+    align-items: center;
+
+    width: 400px;
+    height: 30px;
+
+    border-radius: 5px;
+    border: 2px solid rgb(111, 110, 110);
+
+    background-color: black;
+    color: white;
+}
+
+
+/*botões*/
+#btn-acao{
+    margin: 20px;
+
+    width: 550px;
+    height: 50px;
+
+    border-radius: 10px;
+    border: 2px solid rgb(111, 110, 110);
+
+    font-size: 20px;
+
+    background-color: rgb(0, 97, 0);
+    color: white;
+}
+
+#btn-acao:hover{
+    background-color: rgb(0, 150, 0);
+    color: white;
+}
+
+#btn-acao:active{
+    background-color: rgb(0, 50, 0);
+    color: white;
+}
+
+/*Letras e linhas*/
+
+#titulo{
+    color: white;
+}
+
+p, h2{
+    color: white;
+}
+
+.icone_cifrao{
+    font-size: 30px;
+}
+
+.escrita_h2{
+    font-size: 30px;
+}
+
+#emoji_setas{
+    font-size: 30px;
+}

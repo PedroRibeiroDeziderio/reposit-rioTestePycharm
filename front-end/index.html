@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstração</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="connective.js" defer></script>
+</head>
+<body>
+
+    <div class="central">
+
+        <h1 id="titulo"> Demonstração Sistema de Conciliação </h1>
+
+        <div class="div_arquivo_conc">
+
+            <p class="icone_cifrao">💲</p>
+            <h2 class="escrita_h2">Base Financeira</h2>
+            <p>Apenas arquivos Excel(.xlsx)</p><br>
+
+            <div class="entrada_arquivo">
+                <label for="arquivo1">
+                    <input type="file" id="arquivo1" accept=".xlsx">
+                </label>
+            </div>
+
+        </div>
+
+        <p id="emoji_setas">⇌</p>
+
+        <div class="div_arquivo_conc">
+
+            <p class="icone_cifrao">💲</p>
+            <h2 class="escrita_h2">Base Contábil</h2>
+            <p>Apenas arquivos Excel(.xlsx)</p><br>
+
+            <div class="entrada_arquivo">
+                <label for="arquivo2">
+                    <input type="file" id="arquivo2" accept=".xlsx">
+                </label>
+            </div>
+            
+            <button id="btn-acao">Iniciar Conciliação</button>
+
+        </div>
+    </div>
+    
+</body>
+</html>
